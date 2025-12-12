@@ -1,0 +1,76 @@
+body {
+    margin-left: 0;
+    height: 75vh;
+    background-image: url("Pics/Fireplace.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;                  /* Menšia medzera medzi buttonmi */
+    margin-bottom: 1.75rem;        /* Trochu menší odstup dole */
+}
+
+.buttons button {
+    font-size: 1.5rem;            /* Menší text ako predtým */
+    padding: 1.2rem 2rem;     /* Menší vnútorný priestor */
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;  /* Plynulejšia animácia */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Jemnejší tieň */
+    font-weight: bold;
+    min-width: 80px;
+    max-width: 200px;
+    position: relative;
+    overflow: hidden;           /* Pre glow efekt */
+}
+
+.hohoho {
+    color: white;
+    background-color: crimson;
+}
+
+.hohoho:hover {
+    background-color: darkred;
+    transform: scale(1.08);     /* Zväčšenie pri hover */
+    box-shadow: 0 0 20px rgba(220, 20, 60, 0.8), 0 10px 20px rgba(0, 0, 0, 0.5); /* Glow + tieň */
+}
+
+.jingle {
+    color: white;
+    background-color: goldenrod;
+}
+
+.jingle:hover {
+    background-color: #b8860b;
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 10px 20px rgba(0, 0, 0, 0.5); /* Zlatý glow */
+}
+.alliwant {
+    color: violet;
+    background-color: crimson;
+}
+
+.alliwant:hover {
+    background-color: #6e0982;
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(141, 4, 125, 0.8), 0 10px 20px rgba(0, 0, 0, 0.5); /* Zlatý glow */
+}
+.vanoceprichadzeji {
+    color: rgb(27, 0, 135);
+    background-color: rgb(69, 4, 113);
+}
+
+.vanoceprichadzeji:hover {
+    background-color: #956b9d;
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(3, 52, 185, 0.8), 0 10px 20px rgba(0, 0, 0, 0.5); /* Zlatý glow */
+}
